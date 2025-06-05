@@ -2,13 +2,11 @@
  "fontsface",
  "normalize",
  "variables",
- "globals";
+ "globals",
+ "mixins";
 
  .header-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    @include flex-center-directioncolumn;
     margin-top: 60px;
     margin-bottom: 67px;
 
@@ -32,9 +30,7 @@
     background: url(/images/loncaro-back.png) center/cover no-repeat;
 
     .loncaro-block {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center;
         gap: 15px;
     }
 
