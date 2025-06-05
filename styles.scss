@@ -1,0 +1,64 @@
+@import 
+ "fontsface",
+ "normalize",
+ "variables",
+ "globals";
+
+ .header-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 67px;
+
+    .header-link {
+        border-radius: 7px;
+        padding: 4px 4px;
+    }
+
+    .header-desc {
+        margin-top: 14px;
+    }
+
+    .header-link:hover {
+        background-color: var(--color-grey);
+        box-shadow: 3px 3px 5px 4px;
+        transition-duration: var(--transition-duration);
+    }
+ }
+
+ .loncaro {
+    background: url(/images/loncaro-back.png) center/cover no-repeat;
+
+    .loncaro-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .loncaro-desc {
+        color: var(--color-grey);
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .loncaro-title {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+
+    .loncaro-desccription {
+        margin-top: 11px;
+    }
+
+    .loncaro-img {
+        margin-top: 30px;
+    }
+ }
+
+
