@@ -68,3 +68,9 @@
         box-shadow: 4px 4px 3px 3px var(--color-grey);
     }
 }
+
+@mixin gridcolumns5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+}
